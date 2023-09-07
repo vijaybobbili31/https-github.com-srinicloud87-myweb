@@ -34,13 +34,13 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexus</id>
-			 <name>myweb Snapshot Nexus Repositories/<name>
+		    <name>myweb Snapshot Nexus Repositories/</name>
 		    <url>http://52.206.5.184:8081/repository/myweb-snapshot/</url>
 		 </snapshotRepository>
 		
 		<repository>
-			<id>nexus<id>
-		    <name>myweb Release Nexus Repositories/<name>
+		    <id>nexus<id>
+		    <name>myweb Release Nexus Repositories/</name>
 		    <url>http://52.206.5.184:8081/repository/myweb-relase/</url>
 		</repository>
   	</distributionManagement>

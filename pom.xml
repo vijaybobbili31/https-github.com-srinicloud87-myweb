@@ -39,7 +39,7 @@
 		 </snapshotRepository>
 		
 		<repository>
-		    <id>nexus<id>
+		    <id>nexus</id>
 		    <name>myweb Release Nexus Repositories/</name>
 		    <url>http://52.206.5.184:8081/repository/myweb-relase/</url>
 		</repository>

@@ -10,7 +10,9 @@
 	
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
-		<sonar.host.url>http://13.230.181.236:9000/</sonar.host.url>
+		<sonar.host.url>http://100.25.191.54:9000</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>vijay</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
                 <maven.compiler.source>1.7</maven.compiler.source>
                 <maven.compiler.target>1.7</maven.compiler.target>
@@ -31,13 +33,13 @@
 	
 	<distributionManagement>
 		 <snapshotRepository>
-		    <id>nexusRepo</id>
-		    <url>http://35.78.238.154:8081/repository/sample-snapshots/</url>
+		    <id>icicibank relase nexusRepo</id>
+		    <url>http://52.206.5.184:8081/repository/icicibank-release/</url>
 		 </snapshotRepository>
 		
 		<repository>
-		    <id>nexusRepo</id>
-		    <url>http://35.78.238.154:8081/repository/sample-releases/</url>
+		    <id>icic bank snapshot nexusRepo</id>
+		    <url>http://52.206.5.184:8081/repository/icicibank-snapshot/</url>
 		</repository>
   	</distributionManagement>
 	
